@@ -1,0 +1,22 @@
+{
+  "name": "js-patterns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch --notify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigoBerlochi/js-patterns.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigoBerlochi/js-patterns/issues"
+  },
+  "homepage": "https://github.com/rodrigoBerlochi/js-patterns#readme",
+  "devDependencies": {
+    "jest": "~23.6.0"
+  }
+}
