@@ -1,3 +1,18 @@
+/**
+ * 
+ * SINGLETON and forcing new for constructors
+ * If a function constructor isn't called with
+ * new, it won't return the expected object which
+ * should be an instance of the constructor. It could
+ * return nothing or some object but it won't be instance of
+ * the constructor. 
+ * Catch that scenario and return the constructor invokation with new. 
+ * 
+ * To get an ES5 singleton, at the end of the function body overwrite
+ * the constructor function. The new function just will return the first
+ * instance created leveraging the closure.
+ */
+
 // let's create a unique world...
 function World (options) {
     // private prop to store the instance
